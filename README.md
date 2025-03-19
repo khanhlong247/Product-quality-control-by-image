@@ -184,7 +184,7 @@ Trong dự án này, thư mục ứng dụng chính có tên **app** được đ
 ```
 docker run --rm -it --device /dev/i2c-1:/dev/i2c-1 -v /home/pi/app/Pictures:/app/Pictures card_classification_app
 ```
-### 7. Một số kết quả
+### 7. Một số video kết quả
 
 - Cơ cấu cơ khí:
 
