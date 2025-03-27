@@ -4,6 +4,7 @@ from time import sleep
 from paho.mqtt import client as mqtt_client
 from gpiozero import LED, DistanceSensor, Button
 import RPi.GPIO as GPIO
+import threading
 
 # -------------------------------
 # CAU HINH MQTT
