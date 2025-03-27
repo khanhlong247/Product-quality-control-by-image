@@ -42,7 +42,7 @@ def toggle_pause():
     global paused
     paused = not paused
     if paused:
-        print("Chuong trinh da pause. Trang thai hien tai:", current_state)
+        print("Chuong trinh da ngat. Trang thai hien tai:", current_state)
     else:
         print("Tiep tuc hoat dong. Trang thai tiep tuc:", current_state)
     # Doi den khi nut duoc tha ra de tranh toggle lien tuc
