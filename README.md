@@ -1,12 +1,4 @@
-# Lập trình nhúng - Nhóm 10
-
-## Thành viên:
-
-**Trương Long Khánh - 22010198**
-
-**Lưu Mai Tuyết - 22010226**
-
-**Trần Hoàng Hiệp - 22010389**
+# Product quality control by image
 
 ## Đề tài: Xây dựng hệ thống kiểm soát chất lượng sản phẩm bằng hình ảnh
 
