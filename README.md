@@ -174,7 +174,13 @@ docker build -t card_classification_app .
 Trong dự án này, thư mục ứng dụng chính có tên **app** được đặt trong thư mục /home/pi
 
 ```
-docker run --rm -it --device /dev/i2c-1:/dev/i2c-1 -v /home/pi/app/Pictures:/app/Pictures card_classification_app
+sudo docker run --rm -it \
+  --privileged \
+  --net=host \
+  --device /dev/i2c-1:/dev/i2c-1 \
+  --device /dev/gpiomem:/dev/gpiomem \
+  -v /home/pi/app/Pictures:/app/Pictures \
+  card_classification_app
 ```
 ### 7. Một số video kết quả
 
